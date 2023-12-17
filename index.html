@@ -26,10 +26,10 @@
         }
 
         header img {
-            max-width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+            max-width: 100%;
             height: auto;
             margin-top: 10px;
-            border-radius: 25px; /* Bordes redondos */
+            border-radius: 25px;
         }
 
         nav {
@@ -49,37 +49,28 @@
             /* Estilos específicos para el enlace de tutoriales si es necesario */
         }
 
-        .features, .pricing, .purchase, .licenses, .guide {
-            padding: 40px;
+        .guide {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto; /* Centra el contenido en pantallas grandes */
         }
 
-        .licenses {
+        .guide h2 {
             text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
         }
 
-        .licenses h2 {
-            width: 100%;
-            margin-bottom: 20px;
+        .guide h3 {
+            margin-top: 20px;
         }
 
-        .license-button {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 15px 30px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 10px;
-            text-decoration: none;
-            flex: 0 0 calc(20% - 20px); /* 5 botones por fila, con 20px de espacio entre ellos */
+        .guide h4 {
+            margin-top: 10px;
         }
 
-        .license-button:hover {
-            background-color: #45a049;
+        .guide img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
         }
 
         footer {
@@ -91,12 +82,12 @@
         }
 
         @media only screen and (max-width: 600px) {
-            .features, .pricing, .purchase, .licenses, .guide {
-                padding: 20px;
+            .guide {
+                padding: 10px;
             }
 
-            .license-button {
-                flex: 0 0 calc(40% - 20px); /* 2 botones por fila en dispositivos móviles, con 20px de espacio entre ellos */
+            .guide img {
+                margin-top: 10px;
             }
         }
     </style>
@@ -121,13 +112,13 @@
         <h4>¡Bienvenido a nuestra guía sobre cómo usar tus membresías de Tuxler VPN!</h4>
 
         <h3>Paso 1: Recibir tu Membresía</h3>
-        <h4>Después de completar la compra, recibirás una membresía que se verá como la imagen de abajo, luego elija la opcion "I ALREADY HAVE A ACCOUNT" para extender una cuenta que ya tiene en uso o "REGISTER NOW" para crear una cuenta nueva.</h4>
-        <img src="https://i.ibb.co/QDsMj99/cupon-inicio-transformed-transformed.webp" width="1298" height="785">
-	
-	<h3>Paso 2: Confirmar el registro</h3>
-	
-	<h4>Cuando hayas terminado de registrar o extender tu cuenta premium recibiras este mensaje de confirmacion y asi estaria lista su cuenta premium para acceder a Tuxler VPN.</h4>
-	<img src="https://i.ibb.co/Z6vYVck/cupon-confirmacion.webp" width="1298" height="785">
+        <h4>Después de completar la compra, recibirás una membresía que se verá como la imagen de abajo, luego elija la opción "I ALREADY HAVE AN ACCOUNT" para extender una cuenta que ya tiene en uso o "REGISTER NOW" para crear una cuenta nueva.</h4>
+        <img src="https://i.ibb.co/QDsMj99/cupon-inicio-transformed-transformed.webp" alt="Paso 1">
+
+        <h3>Paso 2: Confirmar el registro</h3>
+
+        <h4>Cuando hayas terminado de registrar o extender tu cuenta premium, recibirás este mensaje de confirmación y así estará lista tu cuenta premium para acceder a Tuxler VPN.</h4>
+        <img src="https://i.ibb.co/Z6vYVck/cupon-confirmacion.webp" alt="Paso 2">
 
         <!-- Agrega más pasos según sea necesario -->
     </section>
